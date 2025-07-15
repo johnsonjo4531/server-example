@@ -1,5 +1,6 @@
 start:
-	$(MAKE) -j dev build
+	npm i && $(MAKE) -j dev 
+
 
 dev:
 	npm run watch:dev
