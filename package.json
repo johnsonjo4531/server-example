@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "node ./dist/server.js",
+    "build": "tsc",
+    "watch:dev": "node --watch ./dist/server.js",
+    "watch:build": "tsc --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
